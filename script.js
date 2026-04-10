@@ -14,6 +14,7 @@ let col1=row.insertCell(0);
 let col2=row.insertCell(1);
 col1.textContent="Total Value";
 col2.textContent=`${totalcost}`;
+col2.id="ans";
 document.querySelector("table").appendChild(row);
 };
 
